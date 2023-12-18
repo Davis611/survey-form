@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+ </head>
+ <body>
+   <h1 id="title">Survey Form</h1>
+   
+   <p id="description" name="description">Thank you for taking the time to fill out this form </p>
+  
+   <form id="survey-form" name="survey-form">
+     <section>
+       <div class="identity">
+       <label for="name" id="name-label">Name</label><input id="name" name="name" type="text" value="" placeholder="Enter Your Name" required></input>
+    
+    
+       <label for="email" id="email-label">Email</label><input id="email" name="email" type="email" value="" placeholder="Enter Your Email" required></input>
+    
+    
+       <label for="number" id="number-label">Age</label><input id="number" name="number" min="16" max="120" type="number" placeholder=" Age" required></input>
+       </div>
+    <fieldset class="dropdown">   
+</section>  
+       <div class="dropdown">
+         <p>Which best describes you?</p>
+       <select id="dropdown" placeholder="Select Current Role" title="Which best describes you?">
+         <option>Select an option </option>
+          <option>Full Time Job </option>
+          <option>Part Time Job</option>
+          <option>Student</option>
+          <option>Prefer Not To Say</option>
+          <option>Other</option>
+       </select>
+       </div>
+     </fieldset>
+     <fieldset>
+     <p>Would you recommend survey to a friend?</p>
+
+     <div class="radio">
+       <input id="definitely" type="radio" name="recommend" value="definitely"/>Definitely
+       <label for="definitely"></label>
+       </div>
+
+      <div class="radio">
+       <input id="maybe" type="radio" name="recommend" value="maybe"/>
+       Maybe<label for="maybe"></label>
+       </div>
+
+       <div class="radio">
+       <input id="notsure" type="radio" name="recommend" value="notsure"/>Not Sure
+       <label for="notsure"></label>
+       </div>
+
+       <div class="radio">
+       <input id="other" type="radio" name="recommend" value="other"/>Other
+       <label for="other"></label>
+       </div>
+
+
+      
+    </fieldset>
+    <fieldset>
+      <p>whats your favorite activity? (Check all that apply)</p>
+
+      <label for="reading"><input id="reading" value="1" type="checkbox" name="reading" required class="inline">Reading</input></label>
+
+      <label for="challenges"><input id="challenges" value="1" type="checkbox" name="challenges" required class="inline">Challenges</input></label>
+
+      <label for="videos"><input id="videos" value="1" type="checkbox" name="videos" required class="inline">Videos</input></label>
+
+      <label for="games"><input id="games" type="checkbox" value="1" required name="games" class="inline">Games</input></label>
+      
+    </fieldset>
+    <fieldset id="comments">
+    <div>
+      <p>Any comments or suggestions</p>
+      <textarea id="comments" name="comments" cols="50" rows="8" placeholder="Enter your comment here..."></textarea>
+    </div>
+    </fieldset>
+    
+  
+   
+   <button id="submit" value="submit" type="submit">Submit
+      </button>
+       </form>
+ </body>
+  </html>

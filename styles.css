@@ -1,0 +1,86 @@
+* {
+  
+}
+body {
+ 
+  width:100%;
+  height:100vh;
+  margin:0;
+  Background-color:#282136;
+  color:#f5f6f7;
+  font-family:Tahoma;
+  font-size:16px
+}
+h1 {
+  margin:1em auto;
+  text-align:center;
+}
+#description {
+  text-align:center;
+}
+form {
+ box-sizing:border-box;
+ border-radius: 15px;
+  border:solid #414141;
+  border-width:4px;
+  background-color:#247879;
+
+  width:80vw;
+  max-width:500px;
+  min-width:300px;
+  margin:0 auto;
+  padding-bottom:2em;
+
+}
+fieldset,.dropdown {
+  padding:1rem 0;
+  border: 0px solid;
+   width:70%;
+  margin-right: auto;
+  margin-left:.5rem auto;
+  padding-left:15;
+}
+select {
+   width:70%;
+  margin-right:auto;
+  margin-left:auto;
+}
+label{
+  display:block;
+  margin:0.5rem 0;
+  padding-bottom:1px;
+}
+input {
+ display:inline-block;
+}
+
+.identity {
+  width:100;
+  display:block;
+  border-radius:15;
+
+}
+
+section {
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:30px;
+}
+
+
+button {
+  background:lightgrey;
+  border-color:lightgrey;
+  color:#247879;
+  font-size:1rem;
+  letter-spacing:0.1rem;
+  margin-top:0.7rem;
+  margin-bottom:0.7rem;
+  padding:0.5rem;
+  width:30.79rem;
+  margin-right:2rem;
+  cursor:pointer;
+  margin-left:;
+  
+}
